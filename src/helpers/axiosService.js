@@ -1,6 +1,6 @@
 import axios from "axios"
 
-axios.defaults.baseURL = 'https://mangamint.kaedenoki.net/api/'
+axios.defaults.baseURL = 'https://manga-api-rosy.vercel.app/api/'
 export class AxiosService{
     static fetch = async(url)=>{
         return new Promise(async(resolve,reject)=>{
